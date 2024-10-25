@@ -19,8 +19,13 @@ header{
     align-items: center;
     opacity: 0.7;
     padding: 10px;
-
 }
+.naveg-items{
+    display:flex;
+    justify-content: center;
+    width: 80%;
+    align-items: center; 
+ }
 .naveg ul{
     width: 100%;
     display: flex;
@@ -50,11 +55,32 @@ header{
     background-color: #231B1B;
     display: flex;
     justify-content: start;
-
+    text-align: start;
 }
-.setas{
-   display:flex;
-   justify-content: center;
-   width: 80%;
-   align-items: center; 
-}    
+.front-page .front-page-title span{
+    align-self: center;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: 30px;
+    padding: 150px;
+    transform: translateY(-60px);
+}
+.front-page .front-page-title h1{
+    font-size: 80px;
+    letter-spacing: 2px;
+}
+.front-page .front-page-items button {
+    height: 80px;
+    width: 260px;
+    margin-top: 
+    padding: 10px 20px;
+    border-radius: 100px;
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: #DDFFF7;
+    border: none;
+    color: var(--preto);
+    font-size: 25px;
+    font-weight: 600;
+}
