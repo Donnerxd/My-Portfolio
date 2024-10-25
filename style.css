@@ -6,10 +6,10 @@
 body {
     font-family: "Roboto", sans-serif;
     color: white;
-    
+    background-color: #231B1B;
 }
 header{
-    background-color: #E980FC; 
+    background-color: #DDFFF7; 
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
 }
 .naveg{
@@ -51,36 +51,55 @@ header{
     justify-content: space-around;
 }
 .front-page .front-page-items .front-page-title{
-    height: 700px;
+    height: 860px;
     background-color: #231B1B;
     display: flex;
+    flex-direction: column;
     justify-content: start;
     text-align: start;
 }
 .front-page .front-page-title span{
-    align-self: center;
     font-family: "Roboto", sans-serif;
     letter-spacing: 2px;
     font-weight: 700;
     font-size: 30px;
     padding: 150px;
-    transform: translateY(-60px);
+    transform: translateY(170px);
+    margin-left: 130px;
 }
 .front-page .front-page-title h1{
     font-size: 80px;
-    letter-spacing: 2px;
+    letter-spacing: 2px; 
+    text-transform: uppercase;
+    font-family: 'Geomanist';
+    padding: 150px;
+    transform: translateY(-75px);
 }
-.front-page .front-page-items button {
-    height: 80px;
-    width: 260px;
-    margin-top: 
-    padding: 10px 20px;
-    border-radius: 100px;
-    transition: 0.3s;
-    cursor: pointer;
-    background-color: #DDFFF7;
-    border: none;
-    color: var(--preto);
-    font-size: 25px;
-    font-weight: 600;
+    
+@font-face {
+        font-family: 'Geomanist';
+        src: url(Fonts/Geomanist-Black.ttf);
+    }
+.front-page .front-page-image img{
+    width: 600px;
+    height: auto;
+    display: flex;
+    place-self: flex-end;
+    transform: translateY(-650px);
+    margin-right: 150px;
+}
+.about-me{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    margin-top: -455px;
+}
+.about-me .about-me-items {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
 }
