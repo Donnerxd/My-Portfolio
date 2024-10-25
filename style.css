@@ -92,14 +92,61 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 400px;
+    height: 600px;
     margin-top: -455px;
 }
-.about-me .about-me-items {
-    height: 300px;
+.about-me .about-me-text {
+    height: 370px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    transform: translateX(-300px);
+}
+.element-images {
+    height: 370px;
+    display: flex;
+    justify-content: space-around;
+    transform: translateX(-300px);
+}
+.about-me .about-me-image img {
+    clip-path: circle(50% at 50% 50%);
+    height: 235px;
+    margin-right: 600px;
+    align-content: center;
+    transform: rotate(346deg);
+    margin-top: 1030px;
+    padding-left: 130px;
+}
+.about-me .about-me-text h1{
+    font-size: 70px;
+    letter-spacing: 2px;
+    font-family: 'Geomanist';
+    text-transform: uppercase;
+    margin-left: -690px;
+    transform: rotate(347deg);
+    margin-top: -40px;
+}
+.about-me .about-me-text p{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    line-height: 20px;
+    margin-top: 140px;
+    font-size: 18px;
+    padding-left: 10px;
+    transform: rotate(347deg);
+    max-width: 600px;
+}
+.lines-p2{
     display: flex;
     align-items: center;
-    justify-content: center;
-
-    
+    justify-content: flex-start;
+    height: 600px;
+    margin-top: -550px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    line-height: 20px;
+    padding-top: 30px;
+    font-size: 18px;
+    padding-left: 10px;
+    margin-left: 600px;
 }
