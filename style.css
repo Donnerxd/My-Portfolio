@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    
+}
+header{
+    background-color: #E980FC; 
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+}
+.naveg{
+    display: flex;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+    padding: 10px;
+
+}
+.naveg ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 75px;
+}
+.naveg ul li a{
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    }
+    @font-face {
+        font-family: 'red-wing';
+        src: url(Fonts/Redwing-Medium.otf);
+    }
+.front-page{
+    display: center;
+    align-items: center;
+    justify-content: space-around;
+}
+.front-page .front-page-items .front-page-title{
+    height: 700px;
+    background-color: #231B1B;
+    display: flex;
+    justify-content: start;
+
+}
+.setas{
+   display:flex;
+   justify-content: center;
+   width: 80%;
+   align-items: center; 
+}    
