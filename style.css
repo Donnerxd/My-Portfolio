@@ -49,10 +49,9 @@ header{
     display: center;
     align-items: center;
     justify-content: space-around;
+    height: 800px;
 }
 .front-page .front-page-items .front-page-title{
-    height: 860px;
-    background-color: #231B1B;
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -82,47 +81,43 @@ header{
     }
 .front-page .front-page-image img{
     width: 600px;
-    height: auto;
-    display: flex;
-    place-self: flex-end;
-    transform: translateY(-650px);
-    margin-right: 150px;
+    position: relative;
+    top: -500px;
+    right: -1150px;
 }
 .about-me{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 1200px;
-    background-image: url(Photos/fundo.svg);
-    background-size: cover;
-    background-position: center;
-    margin-top: -600px;
+    height: 650px;
 }
 .about-me .about-me-text {
-    height: auto;
-    width: auto;
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
     flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-
+    border-radius: 200px;
+    height: 500px;
+    margin-right: -100px;
 }
 .about-me .about-me-image img {
+    width: auto;
     height: 500px;
+    clip-path: circle(50% at 50% 50%);
+    border-radius: 50%;
 }
 .about-me .about-me-text h1{
     font-size: 70px;
     letter-spacing: 2px;
     font-family: 'Geomanist';
     text-transform: uppercase;
-    transform: rotate(347deg);
-    margin-top: -540px;
+    padding-top: 30px;
 }
 .about-me .about-me-text p{
     font-family: 'Roboto', sans-serif;
     letter-spacing: 2px;
     line-height: 20px;
     font-size: 18px;
-    transform: rotate(347deg);
-    max-width: 600px;
+    max-width: 70%;
+    margin-top: 50px;
 }
